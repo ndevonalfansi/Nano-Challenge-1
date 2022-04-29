@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED447FB6281AF5FC00649F60 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED447FB5281AF5FC00649F60 /* Checkbox.swift */; };
 		ED8B111C2817E50D00CF874C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B111B2817E50D00CF874C /* AppDelegate.swift */; };
 		ED8B111E2817E50D00CF874C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B111D2817E50D00CF874C /* SceneDelegate.swift */; };
 		ED8B11202817E50D00CF874C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B111F2817E50D00CF874C /* ViewController.swift */; };
 		ED8B11232817E50D00CF874C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8B11212817E50D00CF874C /* Main.storyboard */; };
 		ED8B11252817E50E00CF874C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8B11242817E50E00CF874C /* Assets.xcassets */; };
 		ED8B11282817E50E00CF874C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8B11262817E50E00CF874C /* LaunchScreen.storyboard */; };
+		ED8B1130281929EE00CF874C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B112F281929EE00CF874C /* HomeViewController.swift */; };
+		ED8B11322819320C00CF874C /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B11312819320C00CF874C /* SecondPageViewController.swift */; };
+		EDA26B10281A888B0064CD28 /* MakeupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26B0F281A888B0064CD28 /* MakeupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED447FB5281AF5FC00649F60 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		ED8B11182817E50D00CF874C /* NANO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NANO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8B111B2817E50D00CF874C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED8B111D2817E50D00CF874C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		ED8B11242817E50E00CF874C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8B11272817E50E00CF874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED8B11292817E50E00CF874C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8B112F281929EE00CF874C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ED8B11312819320C00CF874C /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		EDA26B0F281A888B0064CD28 /* MakeupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		ED8B111A2817E50D00CF874C /* NANO */ = {
 			isa = PBXGroup;
 			children = (
+				ED447FB5281AF5FC00649F60 /* Checkbox.swift */,
 				ED8B111B2817E50D00CF874C /* AppDelegate.swift */,
 				ED8B111D2817E50D00CF874C /* SceneDelegate.swift */,
 				ED8B111F2817E50D00CF874C /* ViewController.swift */,
 				ED8B11212817E50D00CF874C /* Main.storyboard */,
+				ED8B11312819320C00CF874C /* SecondPageViewController.swift */,
+				ED8B112F281929EE00CF874C /* HomeViewController.swift */,
+				EDA26B0F281A888B0064CD28 /* MakeupViewController.swift */,
 				ED8B11242817E50E00CF874C /* Assets.xcassets */,
 				ED8B11262817E50E00CF874C /* LaunchScreen.storyboard */,
 				ED8B11292817E50E00CF874C /* Info.plist */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8B11202817E50D00CF874C /* ViewController.swift in Sources */,
+				EDA26B10281A888B0064CD28 /* MakeupViewController.swift in Sources */,
+				ED447FB6281AF5FC00649F60 /* Checkbox.swift in Sources */,
 				ED8B111C2817E50D00CF874C /* AppDelegate.swift in Sources */,
 				ED8B111E2817E50D00CF874C /* SceneDelegate.swift in Sources */,
+				ED8B1130281929EE00CF874C /* HomeViewController.swift in Sources */,
+				ED8B11322819320C00CF874C /* SecondPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +301,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NANO/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -301,6 +318,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Dvn.NANO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,8 +330,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NANO/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +347,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Dvn.NANO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
